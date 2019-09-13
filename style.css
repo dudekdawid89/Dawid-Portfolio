@@ -42,7 +42,7 @@ body{
     letter-spacing: 8px;
 }
 .caption h1 {
-    font-size: 5vw;
+    font-size: 6vw;
     text-shadow: 2px 2px 15px black;
 }
 .caption h3{
@@ -85,24 +85,4 @@ body{
             backface-visibility: visible;
     }
 
-    h1 {
-        font-size: 1rem;
-      }
-      
-      @include media-breakpoint-up(sm) {
-        h1 {
-          font-size: 1.2rem;
-        }
-      }
-      
-      @include media-breakpoint-up(md) {
-        h1 {
-          font-size: 1.4rem;
-        }
-      }
-      
-      @include media-breakpoint-up(lg) {
-        h1 {
-          font-size: 1.6rem;
-        }
-      }
+  
