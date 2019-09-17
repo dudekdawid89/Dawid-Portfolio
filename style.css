@@ -89,7 +89,7 @@ body{
     }
 
     footer{
-        background: rgba(179, 199,210, 0.9);
+        background: rgba(0, 0,0, 0.8);
         color: white;
         padding: 2rem 0 2rem;
         font-family: 'Roboto', sans-serif;
@@ -140,3 +140,44 @@ body{
        
     }
   
+    #dawiddudek{
+        font-size: 3vw;
+    }
+    #image{
+        width: 400px;
+        height: 600px;
+        margin: 300px;
+        box-shadow: 1px 1px 5px;
+        
+    }
+    #textabout{
+        position: absolute;
+        top: 40%;
+        left:40%;
+        text-shadow: 2px 2px 8px grey;
+        font-style: oblique;
+        font-family: "Times New Roman", Times, serif;
+        
+    } 
+    #about{
+        background-color: lightgrey;
+    }
+    #imageresume{
+        box-shadow: 1px 4px 15px;
+        border-radius: 50%;
+        height: 500px;
+        width: 500px;
+        margin: 200px;
+        
+    }
+    #resumetext{
+        text-shadow: 2px 2px 8px grey;
+        text-align: center;
+        position: relative;
+        top: 35%;
+    }
+    #resumebutton{
+        display: flex;
+        
+        justify-content: center;
+    }
