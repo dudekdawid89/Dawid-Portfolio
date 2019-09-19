@@ -144,9 +144,9 @@ body{
         font-size: 3vw;
     }
     #image{
-        width: 400px;
-        height: 600px;
-        margin: 300px;
+        width: 300px;
+        height: 400px;
+        margin: 150px;
         box-shadow: 1px 1px 5px;
         
     }
@@ -168,18 +168,18 @@ body{
     #imageresume{
         box-shadow: 1px 4px 15px;
         border-radius: 50%;
-        height: 500px;
-        width: 500px;
+        height: 400px;
+        width: 400px;
         margin: 0;
         position: absolute;
-        top: 15%;
+        top: 20%;
         left:10%;
         /* margin: 200px; */
         
     }
     #resumetext{
         text-shadow: 2px 2px 8px grey;
-        font-size: 70px;
+        font-size: 60px;
         position: absolute;
         top: 35%;
         left: 20%;
@@ -189,7 +189,7 @@ body{
         position: absolute;
         top: 53%;
         left: 29%;
-        font-size: 40px;
+        font-size: 30px;
     }
     #resume , .textclass{
         height: 700px;
