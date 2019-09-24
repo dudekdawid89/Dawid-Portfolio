@@ -64,7 +64,7 @@ html, body {
 #myName {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    color: lightgray;
+    color: white;
     text-shadow: 1px 1px 10px black;
 }
 
@@ -151,7 +151,8 @@ footer .fa-code {
 }
 
 #dawiddudek {
-    font-size: 3vw;
+    font-size: 2vw;
+    margin-bottom: 10px;
 }
 
 #image {
@@ -168,7 +169,7 @@ footer .fa-code {
 }
 
 #about {
-    background-color: lightgrey;
+    background-color: white;;
 }
 
 .padding {
@@ -182,13 +183,19 @@ footer .fa-code {
 
 .resumetext h1 {
     padding-top: 100px;
-
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    text-shadow: 1px 1px 3px grey;
 }
 
+.btn{
+    box-shadow: 1px 1px 3px grey;
+}
 @media (max-width: 600px) {
     #dawiddudek {
         font-size: 20px;
         margin-bottom: 20px;
+        
     }
     .col-md-12 h1 {
         font-size: 30px;
@@ -208,4 +215,5 @@ footer .fa-code {
     .resumetext a {
         margin-bottom: 30px;
     }
+    
 }
